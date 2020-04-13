@@ -52,15 +52,6 @@ function App() {
     return `${day} ${date} ${month} ${year}`;
   };
   return (
-    // <div
-    //   className={
-    //     typeof weather.main != "undefined"
-    //       ? weather.main.temp > 16
-    //         ? "theme hot"
-    //         : "theme"
-    //       : "theme"
-    //   }
-    // >
     <div
       className={
         typeof weather.main != "undefined"
@@ -111,7 +102,6 @@ function App() {
         )}
       </main>
     </div>
-    // </div>
   );
 }
 
